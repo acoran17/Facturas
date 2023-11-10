@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table {
+      border: 1px;
+      border-collapse: collapse;
+    }
+    tr {
+      border: solid black 1px;
+    }
+    td, th {
+      border: solid black 1px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Factura</h1>
+
+  <form action="index.html" method="post"></form>
+  <p>
+    <label for="">Concepto</label>
+    <input type="text">
+  </p>
+  <p>
+    <label for="">Cantidad</label>
+    <input type="number">
+  </p>
+  <p>
+    <label for="">Precio</label>
+    <input type="number">
+    <label for="">€</label>
+  </p>
+  <p>
+  <input type="submit" value="Insertar">
+  </p>
+  <p>
+    <table>
+      <tr>
+        <th><strong>Concepto</strong></th>
+        <th><strong>Cantidad</strong></th>
+        <th><strong>Precio Unitario</strong></th>
+        <th><strong>Precio Total</strong></th>
+        <th><strong></strong></th>
+      </tr>
+
+      <tr>
+        <td colspan="3">Subtotal</td>
+        <td>0.00</td>
+      </tr>
+      
+      <tr>
+        <td><strong>Tasa</strong></td>
+        <td></td>
+        <td><strong>Impuestos</strong></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+  </p>
+  <p>
+  <input type="submit" value="Tasa 5%">
+  <input type="submit" value="Tasa 15%">
+  <input type="submit" value="Tasa 30%">
+  </p>
+  </form>
+  <scrip>
+
+  </scrip>
+</body>
+</html>
